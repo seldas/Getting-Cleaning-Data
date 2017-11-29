@@ -5,7 +5,13 @@ library(tidyr)
 
 
 file_name = 'https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip'
-download.file(file_name,destfile = 'W4-Assign-data.zip')
+if (!file.exists('W4-Assign-data.zip')){
+  download.file(file_name,destfile = 'W4-Assign-data.zip')
+}
+
+if (!file.exists('UCI HAR Dataset/')){
+  unzip('W4-Assign-data.zip')  
+}
 
 # import data
 data_train_x = read.table(file = 'UCI HAR Dataset/train/X_train.txt', header = F)
