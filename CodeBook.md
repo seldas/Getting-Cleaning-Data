@@ -20,16 +20,17 @@ The data linked to from the course website represent data collected from the acc
 
 # Workflow of assignment
 (1) Download dataset from 
-<a>https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip</a>
+<a>https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip</a>  
+  
+(2) Extract the zip file to current working dir - <b>UCI HAR Dataset</b>  
+  
+(3) Run R script - <b>run_analysis.R</b>  
 
-(2) Extract the zip file to current working dir - <b>UCI HAR Dataset</b>
 
-(3) Run R script - <b>run_analysis.R</b>
+## Explanation of R script 
 
-
-## explanation of R script 
-
-### Steps are named based on the instruction requirement.
+### Major Steps in data processing
+Steps are named based on the instruction requirement.
   
  - preparation stage: load data into R environment; 
 
