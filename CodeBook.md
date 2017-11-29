@@ -29,7 +29,7 @@ The data linked to from the course website represent data collected from the acc
 
 ## explanation of R script 
 
-  Steps are named based on the instruction requirement.
+### Steps are named based on the instruction requirement.
   
  - preparation stage: load data into R environment; 
 
@@ -47,3 +47,9 @@ The data linked to from the course website represent data collected from the acc
  assign the new table to data_sub_2
  
  - output stage: output dataset (data_sub_2) using *write.table()*
+
+### Feature in selection
+All 79 features with "mean()" or "std()" in this name would be selected.
+
+### Summarize outputs
+The final table are outputed as a "long" table for better visibility.
